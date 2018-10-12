@@ -28,5 +28,6 @@ timeECG   : ECG times
 sigPPG    : PPG signal  
 sigAcc    : Accelerometer signal  
 sigGyro   : Gyroscope signal  
-bpmPPG    : Our result (heart rate)
-timePPG   : Our times
+bpmPPG    : estimated HR
+timePPG   : time of PPG
+idxFSM    : FSM state of estimated HR
