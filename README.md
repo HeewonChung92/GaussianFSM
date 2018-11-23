@@ -1,10 +1,10 @@
-# GaussianFSM
+# Abstract
 Accurate instantaneous heart rate (HR) estimation using a reflectance-type photoplethysmography (PPG) sensor is challenging since the dominant frequency from the PPG signal corrupted by motion artifacts (MAs) is not usually overlapped with true HR, especially during exercise. Recently, various MA cancellation and HR estimation algorithms have been proposed by using simultaneously measured acceleration signals as noise references, which provided accurate estimation results. Nevertheless, they did not always provide accurate results as some estimation results were completely deviated from true HRs. 
 
 To minimize such inaccurate estimation results, we modified power spectrum of PPG signal by emphasizing the frequency power on the frequency corresponding to true HR. We derived the modified power spectrum using Gaussian Kernel function with previously estimated instantaneous HR value. Since the modification is effective only when the previously estimated instantaneous HR value is accurate, we used recently reported finite state machine (FSM) framework, which validates each instantaneous HR result in real-time. Based on the FSM framework, we modified the PPG signal only when the previously estimated instantaneous HR was declared valid. 
 
 
-Gaussian Kernel-Based PPG Data with Matlab
+Physiological Data Measured During Intensive Physical Exercise with Matlab
 ==================================================
 Heewon Chung, Hooseok Lee, and Jinseok Lee (Professor) a member of BAMI LAB.   
 https://sites.google.com/site/bamilab/biosignal-lab   
